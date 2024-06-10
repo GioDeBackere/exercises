@@ -1,6 +1,6 @@
 import pytest
 import itertools
-from mergesort import *
+from mergesort import * 
 
 
 @pytest.mark.parametrize('ns', [

@@ -1,4 +1,4 @@
-import pytest
+import pytest # type: ignore
 from search import linear_search, binary_search
 from student import Student
 

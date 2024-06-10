@@ -1,0 +1,30 @@
+In a simplified world of it we have software developers and business analysts, all the software developers and analysts are people, though not all people are necessarily developers nor analysts. The thing every Person has in common is that he needs a name and a job. They can not have Job as job, it is either Developer or Analyst. Also they have to have a name, the job can be empty(chomage).
+
+The job class contains a jobtitle, a number of sickdays (this is different for everyone)  and a salary.
+The Job class has taken care of the jobtitle and sickdays logic. The salary which can be calculated, raised, and viewed after good evaluation. The formula for the salary calculation is hours work per day * 5 * 100 but is different for different titles.
+Keep in mind that Analysts have to pay additional taxes of 30% of their salary, and developers have to pay 25% taxes.
+
+Now we need to write a Person, a Developer and Analyst class. Developers is a job, and therefore need a title and salary, but we don't want to re-write all that code.
+
+Write the Developer  and Analyst class. It should inherit from its parent. In its constructor it should call its parent's constructor.
+
+All these people work in a company, called Gio&Obim.incorporated. The company contains a list of all people working there.
+
+
+I want an overview printed of 3 people in service with their Name, jobtitle and salary. Like this:
+Company name: Gio&Obim.inc
+
+Team members:
+
+Hanni, null, 0 
+
+Thomas, Technical software engineer, € 3000 
+
+Brent, Business Analyst, € 2800 
+
+
+2) Additiionally, our company is very succesful so we want to hire software architects to strengthen the company.
+Their salary is hours work per day * 150 and they pay the same taxes as developers.
+Kaat 8 uur werk
+
+3) Nieuwe werknemer: Entreprise Architect die heeft iets extra. Een bedrijfswagen. Hierbij moet de naam van de bedrijfswagen geprint worden. naam en waarde(geld). Deze heeft hetzelfde salaris als een analyst

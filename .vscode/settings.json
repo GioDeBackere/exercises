@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "./06-testing/05-expected-values/solution"
+    ],
+    "python.testing.pytestArgs": [
+        "07-data-processing"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

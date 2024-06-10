@@ -8,3 +8,4 @@ instead of `a|b|c|d`, you can also write `[abcd]`.
 
 Note that `[abcd]` matches exactly one letter which must be either `a`, `b`, `c` or `d`.
 `abcd` is not a match as there are four characters.
+

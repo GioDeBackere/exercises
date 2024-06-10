@@ -18,7 +18,7 @@ def test_valid_creation(title, isbn):
 
     assert book.title == title
     assert book.isbn == isbn
-
+ 
 
 @pytest.mark.parametrize('isbn', [
     '978-1779501127',
